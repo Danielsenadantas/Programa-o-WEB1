@@ -1,5 +1,36 @@
+.container {paddig: 0px;
+margin: 0px;}
 .menu{
+    display:flex;
+    justify-content: space-evenly;
     background-color: brown;
-    text-decoration: none
-    color white;
+    text-decoration: none;
+    size: 50px;
+    padding: 5px;
+    
+}
+
+.footer-top {
+    background-color: aqua;
+}
+
+.menu a  {
+    text-decoration: none;
+    color:white;
+    font-family: sans-serif;
+}
+.footer-mid {
+    background-color: darkcyan;
+}
+.footer-mid a {
+    color: blue;
+}
+.footer-mid p {
+    color: white;
+    font-size: small;
+}
+.footer-bottom{
+    border-radius: 12px;
+    padding: 14px 40px;
+  
 }
