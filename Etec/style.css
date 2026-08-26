@@ -32,5 +32,21 @@ margin: 0px;}
 .footer-bottom{
     border-radius: 12px;
     padding: 14px 40px;
-  
+    color: white;
 }
+.button{
+    background-color: brown;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+.button a {
+    color: white;
+    text-decoration: none;
+}
+
